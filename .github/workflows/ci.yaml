@@ -8,9 +8,9 @@ ON :
 jobs:
   check:
     runs-on: ubunto-latest
-    step:
-      - name: Testing
-        run: |
-          echo "Testing CI/CD pipeline"
-          echo "Testing CI/CD pipeline 2"
+      step:
+        - name: Testing
+          run: |
+            echo "Testing CI/CD pipeline"
+            echo "Testing CI/CD pipeline 2"
                 
