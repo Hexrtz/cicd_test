@@ -1,14 +1,14 @@
 name : Deploy ON Push
 
-ON :
-  Push:
+on :
+  push:
     branches:
       - main
 
 jobs:
   check:
     runs-on: ubuntu-latest
-      step:
+      steps:
         - name: Testing
           run: |
             echo "Testing CI/CD pipeline"
