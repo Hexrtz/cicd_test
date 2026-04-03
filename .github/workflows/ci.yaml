@@ -8,9 +8,9 @@ on :
 jobs:
   check:
     runs-on: ubuntu-latest
-      steps:
-        - name: Testing
-          run: |
-            echo "Testing CI/CD pipeline"
-            echo "Testing CI/CD pipeline 2"
+    steps:
+      - name: Testing
+        run: |
+          echo "Testing CI/CD pipeline"
+          echo "Testing CI/CD pipeline 2"
                 
